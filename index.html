@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPC Online Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img src="book-logo.gif" alt="logo not found!" class="logo">
+                <ul id="spc-title" class="spc-title">
+                    <!-- <li>Symaprasad Colege</li> -->
+                    <li>SPC Online Library</li>
+                </ul>
+            </div>
+            <div class="nav-center hide">
+                <ul>
+                    <li>
+                        <img src="home.png" class="home-img">
+                    </li>
+                    <li><img src="category.png" class="category-img"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div>
+                    <span id="search-icon" class="search-icon" onclick="clickSearch()">&#128269;</span>
+                    
+                </div>
+                <div class="search-box">
+                    <!-- input form -->
+                    <form action="" class="search-form">
+                        <input id="search-input" class="search-input" type="text" placeholder="Search">
+                    </form>
+                </div>
+                <div class="nav-menu">
+                    <span onclick="clickHam()">&#x2630;</span>
+                </div>
+            </div>
+        </nav>
+        <!-- Menu -->
+        <div id="menu" class="menu">
+            <div class="list">
+                <li><a href="index.html">Home</a></li>
+                <li>Book Shelf</li>
+                <li>About</li>
+                <li>Log in</li>
+            </div>
+            <div class="backbtn">
+                <li class="closebtn" onclick="clickHam()">Back</li>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="left-sidebar">
+                <!-- left sidebar -->
+                <div class="shortcut-links">
+                    <p>Your shortcuts</p>
+                    <a href="#"> <img src="" alt="">shortcut 1</a>
+                    <a href="#"> <img src="" alt="">shortcut 2</a>
+                    <a href="#"> <img src="" alt="">shortcut 3</a>
+                    <a href="#"> <img src="" alt="">shortcut 4</a>
+                </div>
+            </div>
+            <div class="main-content">
+                <!-- main content -->
+                <div class="top-search-results">
+                    <!-- <h2>Top Search Results</h2> -->
+                    <div>
+                        <span>Mike Maguire, Rod Morgan, Robert Reiner - The Oxford Handbook of Criminology-Oxford University Press (2012)<br></span>
+                        <a href="books/Mike Maguire, Rod Morgan, Robert Reiner - The Oxford Handbook of Criminology-Oxford University Press (2012).pdf" target="_blank"> Click to view Book
+                        </a>
+                    </div>
+                    <div>
+                        <span><br>books/Richard Saferstein - Criminalistics_ An Introduction to Forensic Science-Pearson (2014)<br></span>
+                        <a href="books/Richard Saferstein - Criminalistics_ An Introduction to Forensic Science-Pearson (2014).pdf" target="_blank"> Click to view Book
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="event">
+                    <div class="left-event">
+                        <img src="logo.png" alt="logo">
+                        <span>Powered By</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Department of Computer Science</h4>
+                        <h5>Syamaprasad College</h5>
+                        <p>92, Dr. Symaprasad Mukherjee Road</p>
+                        <p>kolkata: 700026</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="react.js"></script>
+    </body>
+</html>
